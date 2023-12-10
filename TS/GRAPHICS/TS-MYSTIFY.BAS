@@ -8,9 +8,11 @@
 '
 ' (C) 2023 TS. MIT. ALL RIGHTS RESERVED.
 '
+$ExeIcon:'C:\QB64\TS\TS.ICO'
+_Icon
 _ScreenMove _Middle
-_FullScreen
-_Title "TS-MYSTIFY"
+'_FullScreen
+_Title "MYSTIFY"
 Cls
 Const Sh = 2, Vx = 4, Ln = 10, MaxSpeed = 6, SV = Sh * Vx, SV2 = SV * 2, Ln1 = Ln + 1
 Randomize Timer

@@ -8,8 +8,10 @@
 '
 ' (C) 2023 TS. MIT. ALL RIGHTS RESERVED.
 '
+$ExeIcon:'C:\QB64\TS\TS.ICO'
+_Icon
 _ScreenMove _Middle
-_FullScreen
+'_FullScreen
 _Title "WARPSTARS"
 Cls
 Const MAXSTARS = 300 ' 50 to 1000 stars

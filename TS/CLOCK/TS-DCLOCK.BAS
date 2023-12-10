@@ -8,9 +8,11 @@
 '
 ' (C) 2023 TS. MIT. ALL RIGHTS RESERVED.
 '
+$ExeIcon:'C:\QB64\TS\TS.ICO'
+_Icon
 _ScreenMove _Middle
-_FullScreen
-_Title "TS-DCLOCK"
+'_FullScreen
+_Title "DCLOCK"
 Cls
 DECLARE SUB FELT (X%, Y%, XX%, YY%, FARBEN%)
 DECLARE SUB KLPRINT (B$, B%, K%, G%, I%)

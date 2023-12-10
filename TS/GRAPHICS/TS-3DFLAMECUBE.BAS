@@ -8,9 +8,11 @@
 '
 ' (C) 2023 TS. MIT. ALL RIGHTS RESERVED.
 '
+$ExeIcon:'C:\QB64\TS\TS.ICO'
+_Icon
 _ScreenMove _Middle
-_FullScreen
-_Title "TS-3DFLAMECUBE"
+'_FullScreen
+_Title "3DFLAMECUBE"
 Cls
 DECLARE SUB pal (c%, r%, g%, B%)
 DECLARE SUB flam ()

@@ -8,9 +8,11 @@
 '
 ' (C) 2023 TS. MIT. ALL RIGHTS RESERVED.
 '
+$ExeIcon:'C:\QB64\TS\TS.ICO'
+_Icon
 _ScreenMove _Middle
-_FullScreen
-_Title ""
+'_FullScreen
+_Title "DOSMATRIX2"
 Cls
 Screen _NewImage(_DesktopWidth, _DesktopHeight, 32)
 Dim m(1 To Int(_Width / _FontWidth))
@@ -19,7 +21,11 @@ For i = 1 To UBound(m)
     m(i) = -Int(Rnd * _Height)
 Next
 
-Color _RGB32(0, 255, 0)
+'Color _RGB32(255, 0, 0)     'RED
+Color _RGB32(0, 255, 0) 'GREEN
+'Color _RGB32(0, 0, 255)     'BLUE
+'Color _RGB32(255, 255, 255) 'WHITE
+
 
 Do
     _Limit 15

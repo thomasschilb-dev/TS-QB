@@ -8,9 +8,11 @@
 '
 ' (C) 2023 TS. MIT. ALL RIGHTS RESERVED.
 '
+$ExeIcon:'C:\QB64\TS\TS.ICO'
+_Icon
 _ScreenMove _Middle
-_FullScreen
-_Title "TS-SPIRALTEXT"
+'_FullScreen
+_Title "SPIRALTEXT"
 Cls
 DECLARE SUB redraw ()
 DECLARE SUB analyse ()

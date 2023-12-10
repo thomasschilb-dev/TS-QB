@@ -8,13 +8,15 @@
 '
 ' (C) 2023 TS. MIT. ALL RIGHTS RESERVED.
 '
+$ExeIcon:'C:\QB64\TS\TS.ICO'
+_Icon
 _ScreenMove _Middle
-_FullScreen
+'_FullScreen
 _Title "TS-WIRECUBE"
 Cls
 Dim a%(500, 2), b&(8000)
 Screen 13
-Color 15: Locate 20, 18: Print "+-------[ www.thomasschilb.tk ]--------+"
+Color 15: Locate 20, 18: Print "+-------[ www.thomasschilb.me ]--------+"
 Color 15: Locate 4, 18: Print "+-------------[ WireCube ]-------------+"
 Color 15: Locate 6: Print "|                                      |"
 Color 15: Locate 6: Print "|                                      |"

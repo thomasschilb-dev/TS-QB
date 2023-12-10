@@ -8,9 +8,11 @@
 '
 ' (C) 2023 TS. MIT. ALL RIGHTS RESERVED.
 '
+$ExeIcon:'C:\QB64\TS\TS.ICO'
+_Icon
 _ScreenMove _Middle
-_FullScreen
-_Title "TS-SYNDICATE"
+'_FullScreen
+_Title "SYNDICATE"
 Cls
 Screen 12
 Color 8

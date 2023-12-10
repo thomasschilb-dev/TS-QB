@@ -8,9 +8,11 @@
 '
 ' (C) 2023 TS. MIT. ALL RIGHTS RESERVED.
 '
+$ExeIcon:'C:\QB64\TS\TS.ICO'
+_Icon
 _ScreenMove _Middle
 _FullScreen
-_Title "TS-INTRO"
+_Title "INTRO"
 Cls
 Screen 13
 'LOCATE 2, 1: COLOR 23: PRINT "ANYKEY = Quit     ALT+ENTER = Fullscreen"
